@@ -1,0 +1,334 @@
+.navBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    height: 30px;
+
+}
+
+a {
+    margin: 0 20px;
+    color: #000;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00b074;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 80px;
+    background-color: #00b074;
+}
+
+.logo {
+    color: #00b074;
+    font-size: 30px;
+    padding-left: 10px;
+    border: 0 solid #00b074;
+    font-weight: 500;
+}
+
+.About {
+    background: url(../Img/carousel-2.jpg);
+    width: 100%;
+    height: 100vh;
+    margin-top: 10px;
+}
+
+.mainabout {
+    padding: 100px 0 0 100px;
+}
+
+.about-text {
+    font-size: 60px;
+    margin-left: -630px;
+    color: #fff;
+}
+
+.About-p {
+    font-size: 22px;
+    margin-left: -530px;
+    color: #fff;
+}
+
+.AbuBtn {
+    display: flex;
+}
+
+.btn1 {
+    background-color: #2b9bff;
+    border: 0 solid #2b9bff;
+    height: 40px;
+    width: auto;
+    margin: 20px;
+    color: white;
+}
+
+.btn1:hover {
+    transform: scale(1.2);
+}
+
+.btn2 {
+    background-color: #00b074;
+    border: 0 solid #00b074;
+    height: 40px;
+    width: auto;
+    margin: 20px;
+    color: white;
+}
+
+.btn2:hover {
+    transform: scale(1.2);
+}
+
+.inputSec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: #00b074;
+    height: 100px;
+    width: 100%;
+    margin-top: 10%;
+}
+
+.inp-text {
+    border: 1px solid #00b074;
+}
+
+.btn3 {
+    background-color: rgb(94, 89, 89);
+    color: #fff;
+}
+
+.btn3:hover {
+    transform: scale(1.2);
+}
+
+h2 {
+    font-size: 40px;
+    margin-top: 30px;
+    margin-left: 8%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+.category {
+    background: white;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.category:hover {
+    transform: scale(1.1);
+    background-color: #00b074;
+    color: #000;
+}
+
+.category img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.category h3 {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.category a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.Help-Section {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+}
+
+.help-img {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+
+    width: 210%;
+    margin-left: 80px;
+    margin-top: 70px;
+}
+
+.about-img-1 {
+    margin-left: 30px;
+    height: 250px;
+    width: 250px;
+}
+
+.about-img-2 {
+    height: 225px;
+    width: 225px;
+    margin-top: 25px;
+}
+
+.about-img-3 {
+    height: 225px;
+    width: 22p5x;
+    margin-left: 95px;
+}
+
+.Help-Text {
+    margin-left: 400px;
+    margin-top: 70px;
+}
+
+.redme-btn {
+    background-color: #00b075;
+    padding: 10px 10px;
+    border: 0 solid #00b075;
+    color: white;
+}
+
+.redme-btn:hover {
+    transform: scale(1.2);
+}
+
+.tick-img {
+    height: 20px;
+    width: 20px;
+}
+
+.job-listing {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 1100px;
+
+    margin: 60px 0 0 50px;
+}
+
+.job-card:hover {
+    transform: scale(1.1);
+    border-radius: 25px;
+    background-color: #81ad9e8a;
+}
+
+.job-card {
+    display: flex;
+    align-items: center;
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.job-card img {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+
+.job-info {
+    flex: 1;
+    text-align: left;
+}
+
+.apply-btn {
+    background: #00b075;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.apply-btn:hover {
+    transform: scale(1.2);
+}
+
+.browse-btn {
+    background: #00b075;
+    border: 0 solid #00b075;
+    padding: 10px 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.browse-btn:hover {
+    transform: scale(1.2);
+
+}
+
+.testimonial-section {
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 1100px;
+    margin: 40px auto;
+}
+
+.testimonial {
+    display: inline-block;
+    width: 20%;
+    background: #eaf6f6;
+    padding: 20px 10px 0 10px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.testimonial:hover {
+    background: #16a085;
+    color: white;
+    transform: scale(1.1);
+}
+
+.testimonial img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.footer {
+    background: #222;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.footer .columns {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.newsletter button {
+    background: #16a085;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
